@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+#header {
+	height: 70px;
+}
+
+#visual {
+	height: 171px;
+	background: #313131 url("../../images/bg-visual.png") no-repeat center;
+	border-top: 3px solid #8CBA34;
+	
+	/* background-attachment: scroll;
+	overflow: scroll; */
+}
+
+#body {
+	min-height: 300px;
+	border-top:5px solid #8CBA34;
+	margin-top: 1px;
+}
+
+#body .content-container {
+	background:url("../../images/bg-body.png") repeat-y center;
+}	
+
+#footer {
+	height: 100px;
+	background: #313131;
+}
+
+/* #quick-menu {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	
+	width: 100px;
+	height: 100px;
+	
+	border: 1px solid red;
+	
+	background: url("../../images/logo.png") no-repeat left top;
+	background-size: contain;
+} */
+
+#aside {
+	float: left;
+	width: 205px;
+	background:url("../../images/bg-aside-title.png") no-repeat center top;
+}
+
+#main {
+	box-sizing: border-box;
+	position:relative;
+	float : left;
+	width: 755px;
+	min-height: 300px;
+	float: left;
+	padding-left:35px;
+	padding-top:45px;
+	/* box-shadow: 3px 5px 5px #000000; */
+	
+}
+
+.content-container {
+	width: 960px;
+	height: 100%;
+	min-height: inherit;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+

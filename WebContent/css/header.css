@@ -1,0 +1,146 @@
+@CHARSET "EUC-KR";
+
+
+/*---------¸ÞÀÎ¸Þ´º----------- */
+#logo {
+	position: absolute;
+	top:23px;
+}
+
+#main-menu {
+	position: absolute;
+	top: 27px;
+	left: 200px;
+}
+
+#main-menu a {
+	color: #000000;
+	font-family: ¸¼Àº °íµñ, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	
+}
+
+#main-menu ul>li {
+	padding-left: 24px;
+	background: url("../images/bg-main-menu-vsp.png") no-repeat 13px
+		center;
+}
+
+.hr-menu {
+	display: inline-block;
+}
+
+.hr-menu ul {
+	overflow: auto;
+}
+
+.hr-menu li {
+	float: left;
+}
+
+.hr-menu li:first-child {
+	background: none !important;
+	padding-left: 0px !important;
+}
+
+.hr-menu li a {
+	color: #ff6a00;
+	text-decoration: none;
+}
+
+.hr-menu li a:HOVER {
+	text-decoration: underline;
+}
+/*-----------°­ÁÂ°Ë»öÆû----------- */
+#lecture-search{
+	width:308px;
+	height:23px;
+	boader:5px solid #8CBA34;
+}
+#lecture-search-form {
+	position: absolute;
+	top: 21px;
+	left: 468px;
+	border:5px solid #83BA34;
+	height:29px;
+	font-size:11px;
+	width:288px;
+}
+
+#lecture-search-form fieldset label{
+	display: block;
+	float:left;
+	font-color:green;
+	background:white;
+	width:55px;
+	height:25px;
+	line-height:25px;
+	}
+	
+#lecture-search-form  fieldset input[type=text]{
+	
+	display: block;
+	float:left;
+	background:green;
+	width:calc(100% - 55px - 31px);
+	height:25px;
+	border:2px;
+}
+#lecture-search-form  fieldset input[type=submit]{
+	display: block;
+	float:left;
+	background:blue;
+	width:31px;
+	height:25px;
+	border:0px;
+	boader-left:1px;
+	line-height:25px;
+	
+}
+
+/*-----------°èÁ¤¸Þ´º----------- */
+
+
+#account-menu {
+	position: absolute;
+	top: 20px;
+	right:0;
+	font-size:10px;
+	font-family:¸¼Àº°íµñ;
+}
+
+#account-menu a {
+	color: #8C8C8C;
+	text-decoration: none;
+}
+
+#account-menu ul>li {
+	padding-left: 24px;
+	background: url("../../images/bg-main-menu-vsp.png") no-repeat 13px
+		center;
+}
+
+#account-menu li a:HOVER {
+	text-decoration: underline;
+}
+#account-menu ul li {
+	padding-left: 10px;
+	background: url("../images/bg-main-menu-vsp.png") no-repeat 5px
+		center;
+}
+
+/*----------È¸¿ø ¸Þ´º----------- */
+#member-menu {
+	font-size:10px;
+	padding: 10 px;
+	position: absolute;
+	top: 40px;
+	right:0;
+	font-size:10px;
+}
+
+#member-menu ul li {
+
+	
+}
